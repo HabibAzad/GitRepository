@@ -6,16 +6,21 @@ public class GitReporsitory {
 		int [] arr= {1,3,5,2,8,4};
 		//for(int i=0; i<5; i++)
 			//System.out.println(arr[i]);
-		char s = 'a';
-		while (s<='z')
+		
+		
+		
+		char s = 'z';
+		while (s>='a')
 		{
 		System.out.print(s+ " ");
-			s+=1;
+			s--;
+			
 		}
-			char y = 'A';
-			while( y<='Z'){
+		System.out.println();
+			char y = 'Z';
+			while( y>='A'){
 				System.out.print(y+ " ");
-				y+=1;
+				y-=1;
 				
 			
 				
