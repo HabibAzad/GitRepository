@@ -32,10 +32,16 @@ System.out.println(rev);
 	}
 	System.out.println (state);
 	
-	}
-
 	
+ String card="Credit&DebitCard";
+	String house="";
+	for(int i=card.length()-1; i>=0; i--) {
+		house =house+card.charAt(i);
 	}
+		System.out.println(house);
+	}
+	}
+	
 
 
 	
