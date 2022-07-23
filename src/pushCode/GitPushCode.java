@@ -21,11 +21,22 @@ System.out.println(rev);
 	h=h+car.charAt(i);
 	}
 	System.out.println(h);
+	
+	
+	String city="Washington DC";
+	String state="";
+	
+	for(int i=city.length()-1; i>=0; i--) {
+		
+	state=state+city.charAt(i);
+	}
+	System.out.println (state);
+	
+	}
 
 	
-		
 	}
-	
-}
+
+
 	
 
